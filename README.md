@@ -1,5 +1,7 @@
 # PPTP Server Ubuntu 21.04 Hosting
-###### (全部都是以root权限运行)
+由于Ubuntu的默认防火墙是UFW所以只有UFW的防火墙配置
+
+(全部都是以root权限运行)
 
 ## Stept 01-安装
 ##### 安装PPTP服务器
