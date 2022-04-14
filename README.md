@@ -29,7 +29,7 @@ remoteip 10.0.0.1-255 --分配给远程连接的客户端的IP地址
 ms-dns X.X.X.X
 ms-dns X.X.X.X
 ```
-*X.X.X.X的默认是微软官方DNS服务器地址
+*```X.X.X.X```的默认是微软官方DNS服务器地址
 
 ## Stept 04-添加客户端用户
 修改```/etc/ppp/chap-secrets```文件
