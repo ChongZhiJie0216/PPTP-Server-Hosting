@@ -54,11 +54,17 @@ ms-dns X.X.X.X
 修改
 ```/etc/sysctl.conf```
 ，找到
+
 ```**#net.ipv4.ip_forward=1**```
+
 ，将注释去掉
+
 例子:
+
 ```net.ipv4.ip_forward=1```
+
 然后运行指令立即生效
+
 ```sysctl -p```
 
 ## Stept 06-UFW防火墙配置
