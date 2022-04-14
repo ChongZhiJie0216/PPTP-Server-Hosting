@@ -51,10 +51,15 @@ ms-dns X.X.X.X
 >>在用户名前面放#代表暂停/停止用户使用该账户
 
 ## Stept 05-开启网络转发功能
-修改```/etc/sysctl.conf```，找到`**#net.ipv4.ip_forward=1**`，将注释去掉
+修改
+```/etc/sysctl.conf```
+，找到
+```**#net.ipv4.ip_forward=1**```
+，将注释去掉
 例子:
 ```net.ipv4.ip_forward=1```
-然后运行指令立即生效```sysctl -p```
+然后运行指令立即生效
+```sysctl -p```
 
 ## Stept 06-UFW防火墙配置
 在```/etc/default/ufw```中，修改默认的转发规则
